@@ -712,7 +712,7 @@ ETHAppDeploy = {
                 method: 'eth_chainId'
             });
             console.log(chainId);
-            if (chainId !== '0x38') {
+            if (chainId !== '0x61') {
                 alert("You are not on the Binance Smart Chain Network, please change Metamask to point to a BSC endpoint");
                 return;
             }
