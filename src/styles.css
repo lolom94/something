@@ -1,0 +1,91 @@
+ @font-face {
+     font-family: '8bit';
+     src: URL('./8bit.woff') format('truetype');
+}
+ body{
+     text-align:center;
+     background-color:black;
+     color:white;
+     font-family: '8bit';
+}
+ #logo{
+     height: 27rem;
+     width: 30rem;
+}
+ #buyBtn{
+     padding-right: 2rem;
+     padding-left: 2rem;
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+     border-style: solid;
+     border-color: #f3a619;
+     background-color: transparent;
+     color: #f3a619;
+     font-family: '8bit';
+     margin-top: 1rem;
+}
+#viewBtn {
+     color:black;
+}
+ #image{
+     image-rendering: pixelated;
+     height: 21px;
+     width: 16px;
+}
+ #AXO{
+     margin-bottom: 1rem;
+     font-size: 30px;
+}
+ #number{
+     font-size: 40px;
+}
+.ant-input {
+     color:black;
+     text-align: center;
+}
+ .col-sm-6 {
+}
+ #col2{
+     margin-top:8%;
+}
+ .p {
+     text-align: center;
+     padding-top: 120px;
+}
+ .p a {
+     text-decoration: underline;
+     color: blue;
+}
+ .row {
+     padding-right:10rem;
+     padding-left:10rem;
+     margin-top:-5rem;
+}
+ #totalSupply{
+     font-size:12px;
+     margin-top:1rem;
+}
+ #amountLeft{
+     font-size:12px;
+     margin-top:1rem;
+}
+ footer{
+     margin-top:4rem;
+}
+ #footerimg{
+     height:50px;
+}
+ #sprite-image {
+     image-rendering: pixelated;
+     image-rendering: -moz-crisp-edges;
+     image-rendering: crisp-edges;
+     height: 21px;
+     width: 16px;
+     zoom: 17;
+     animation: play 1s steps(7) infinite;
+}
+ @keyframes play {
+     100% {
+         background-position: -112px -76px;
+    }
+}
